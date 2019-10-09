@@ -20,20 +20,26 @@
         <Button
             android:id="@+id/hello_button"
             android:layout_rowWeight="1"
+            android:tag="0"
             android:layout_columnWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_gravity="fill"
             android:text="@string/hello" />
 
         <Button
             android:id="@+id/goodbye_button"
             android:layout_rowWeight="1"
+            android:tag="1"
             android:layout_columnWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_gravity="fill"
             android:text="@string/goodbye" />
 
         <Button
             android:id="@+id/please_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
+            android:tag="2"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:text="@string/please" />
@@ -41,34 +47,44 @@
         <Button
             android:id="@+id/thank_you_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
+            android:tag="3"
             android:layout_gravity="fill"
             android:text="@string/thank_you" />
 
         <Button
             android:id="@+id/what_is_your_name_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
+            android:tag="4"
             android:layout_gravity="fill"
             android:text="@string/what_is_your_name" />
 
         <Button
             android:id="@+id/where_are_you_from_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
+            android:tag="5"
             android:layout_gravity="fill"
             android:text="@string/where_are_you_from" />
 
         <Button
             android:id="@+id/how_are_you_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
+            android:tag="6"
             android:layout_gravity="fill"
             android:text="@string/how_are_you" />
 
         <Button
             android:id="@+id/nice_to_meet_you_button"
             android:layout_rowWeight="1"
+            android:onClick="playAudioPhrase"
+            android:tag="7"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:text="@string/nice_to_meet_you" />
