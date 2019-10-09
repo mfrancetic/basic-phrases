@@ -22,7 +22,7 @@
         <Button
             android:id="@+id/hello_button"
             android:layout_rowWeight="1"
-            android:tag="0"
+            android:tag="hello_german"
             android:layout_columnWeight="1"
             android:onClick="playAudioPhrase"
             android:text="@string/hello" />
@@ -30,7 +30,7 @@
         <Button
             android:id="@+id/goodbye_button"
             android:layout_rowWeight="1"
-            android:tag="1"
+            android:tag="goodbye_german"
             android:background="@color/colorPrimaryDark"
             android:layout_columnWeight="1"
             android:onClick="playAudioPhrase"
@@ -40,7 +40,7 @@
             android:id="@+id/please_button"
             android:layout_rowWeight="1"
             android:onClick="playAudioPhrase"
-            android:tag="2"
+            android:tag="please_german"
             android:background="@color/colorPrimaryDark"
             android:layout_columnWeight="1"
             android:text="@string/please" />
@@ -50,7 +50,7 @@
             android:layout_rowWeight="1"
             android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
-            android:tag="3"
+            android:tag="thank_you_german"
             android:text="@string/thank_you" />
 
         <Button
@@ -58,7 +58,7 @@
             android:layout_rowWeight="1"
             android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
-            android:tag="4"
+            android:tag="what_is_your_name_german"
             android:text="@string/what_is_your_name" />
 
         <Button
@@ -67,7 +67,7 @@
             android:onClick="playAudioPhrase"
             android:background="@color/colorPrimaryDark"
             android:layout_columnWeight="1"
-            android:tag="5"
+            android:tag="where_are_you_from_german"
             android:text="@string/where_are_you_from" />
 
         <Button
@@ -76,13 +76,13 @@
             android:onClick="playAudioPhrase"
             android:layout_columnWeight="1"
             android:background="@color/colorPrimaryDark"
-            android:tag="6"
+            android:tag="how_are_you_german"
             android:text="@string/how_are_you" />
 
         <Button
             android:id="@+id/nice_to_meet_you_button"
             android:onClick="playAudioPhrase"
-            android:tag="7"
+            android:tag="nice_to_meet_you_german"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:text="@string/nice_to_meet_you" />
