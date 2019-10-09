@@ -6,6 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorTextButton</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
     </style>
 
 </resources>
